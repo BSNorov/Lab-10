@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class PerimeterCalculable {
+public interface PerimeterCalculable {
+    double calculatePerimeter();
 }

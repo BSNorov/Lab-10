@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public abstract class Polygon extends Shape {
+    public Polygon(String name) {
+        super(name);
+    }
 
-public class Polygon {
+    public abstract double calculatePerimeter();
 }
